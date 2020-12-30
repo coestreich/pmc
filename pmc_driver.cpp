@@ -110,7 +110,7 @@ int main(int argc, char *argv[]) {
         //cout << "Size (omega): " << C.size() << endl;
         print_max_clique(C);
 
-        if (C.size() < in.param_ub)
+        //if (C.size() < in.param_ub)
           //  cout << "Clique of size " << in.param_ub << " does not exist." <<endl;
     }
     C.clear();
