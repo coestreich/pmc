@@ -69,14 +69,16 @@ string memory_usage() {
 }
 
 void indent(int level, string str) {
-    for (int i = 0; i < level; i++)
+    cout << "";
+    //for (int i = 0; i < level; i++)
       //  cout << "   ";
     //cout << "(" << level << ") ";
 }
 
 void print_max_clique(vector<int>& C) {
+    cout << "";
     //cout << "Maximum clique: ";
-    for(int i = 0; i < C.size(); i++)
+    //for(int i = 0; i < C.size(); i++)
       //  cout << C[i] + 1 << " ";
     //cout << endl;
 }
