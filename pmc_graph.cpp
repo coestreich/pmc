@@ -224,8 +224,8 @@ void pmc_graph::read_mtx(const string& filename) {
             ridx--;
             cidx--;
 
-            if (ridx < 0 || ridx >= row)  cout << "sym-mtx error: " << ridx << " row " << row << endl;
-            if (cidx < 0 || cidx >= col)  cout << "sym-mtx error: " << cidx << " col " << col << endl;
+            //if (ridx < 0 || ridx >= row)  cout << "sym-mtx error: " << ridx << " row " << row << endl;
+            //if (cidx < 0 || cidx >= col)  cout << "sym-mtx error: " << cidx << " col " << col << endl;
             if (ridx == cidx)  continue;
 
             if (ridx > cidx) {

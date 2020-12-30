@@ -169,7 +169,7 @@ void pmc_graph::print_info(vector<int> &C_max, double &sec) {
 
 
 void pmc_graph::print_break() {
-    cout << "-----------------------------------------------------------------------" <<endl;
+    //cout << "-----------------------------------------------------------------------" <<endl;
 }
 
 bool pmc_graph::time_left(vector<int> &C_max, double sec, double time_limit, bool &time_expired_msg) {
